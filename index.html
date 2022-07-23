@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS Local-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Título e Favicon do Site-->
+    <title>Inside Hugo Gonçalves</title>
+    <link rel="shortcut icon" href="Imagens/Logo---Peq.png" type="image/x-icon" />
+
+</head>
+
+<body>
+    <header class="home d-flex align-items-center">
+        <!-- Nav, parte referente ao menu fixo no topo da página, com botão toggle ao ficar menor -->
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Imagens/Logo---Peq.png" alt="" width="80%" height="">
+                </a>
+
+                <button class="navbar-toggler toggler-cunstom" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-custom">
+                        <li><a href="#" class="nav-link px-2">Home</a></li>
+                        <li><a href="#" class="nav-link px-2">Atletas</a></li>
+                        <li><a href="#" class="nav-link px-2">Professores</a></li>
+                        <li><a href="#" class="nav-link px-2">Estrutura</a></li>
+                        <li><a href="#" class="nav-link px-2">Modalidades</a></li>
+                        <li><a href="#" class="nav-link px-2">Quem Somos</a></li>
+                        <li><a href="#" class="nav-link px-2">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Div, nessa parte do site estão a logo principal e a imagem de fundo -->
+        <div class="container-fluid">
+            <div class="logo">
+                <img class="img-fluid mx-auto d-block" src="Imagens/Logo.png"
+                    alt="Logo da empresa com a escrita Hugo na cor amarela e Gonçalves na cor branca, Mixed Martial Arts tambem na cor amarela, Inside Muay Thai de fundo em cinza">
+            </div>
+        </div>
+    </header>
+
+    <!-- Footer, aqui começa o rodapé da nossa página. -->
+    <footer class="container icons">
+        <div class="d-flex flex-wrap justify-content-between align-items-center p-3 fixed-bottom">
+
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Inside Hugo Gonçalves</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end d-flex">
+                <a href="https://api.whatsapp.com/send?phone=5518996894989"> <img class="icons" src="Icons/whatsapp-2.png" alt="Icone do app whatsapp"></a>
+                <a href="https://www.instagram.com/insidehugogoncalves/"> <img class="icons" src="Icons/instagram-2.png" alt="Icone do app instagram"></a>
+                <a href="https://www.facebook.com/InsideHugoGoncalves"> <img class="icons" src="Icons/facebook-2.png" alt="Icone do app facebook"></a>
+            </ul>
+
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Mascara JS para corrigir a digitação no campo de telefone -->
+    <script src="https://unpkg.com/imask@6.4.2/dist/imask.js"></script>
+
+    <!-- JS jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <!-- JS Local-->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
