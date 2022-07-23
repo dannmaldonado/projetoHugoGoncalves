@@ -1,0 +1,53 @@
+*,*::before,*::after{
+    text-decoration: none;
+}
+
+/* Reset CSS e Font do Body*/
+body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cinzaEscuro);
+    background: url(Imagens/Fundo.jpg) top no-repeat;
+}
+
+/* Padrão de cores do Site */
+:root{
+    --cinzaClaro: #d2d2d1;
+    --cinzaEscuro: #2e2f2d;
+    --cinza: #272725;
+    --amarelo: #f0d126;
+    --branco: #ffffff;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-custom{
+    background-color: #272725;
+    color: var(--cinzaClaro);
+}
+
+.toggler-custom{
+    color: var(--cinzaClaro);
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active, .nav-link.active, .open>.dropdown-toggle.nav-link {
+    color: var(--amarelo);
+    /* background-color: var(--amarelo); */
+    /* border-color: var(--amarelo); */
+}
+
+.text-cunstom{
+    color:var(--cinzaClaro);
+
+}
+
+.icons{
+    padding: 0.3rem;
+}
